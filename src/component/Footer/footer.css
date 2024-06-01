@@ -1,0 +1,199 @@
+.footer-body {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  /* gap: 15rem; */
+  justify-content: space-around;
+  background-color: rgb(36, 65, 113);
+  background-size: cover; /* Ensures background covers the entire area */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents repeating the background image */
+  /* padding: 2rem; Add some padding for better spacing */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  /* padding-right: 235px; */
+  /* padding-left: 235px; */
+}
+.footer-body h2{
+  color: white;
+  margin-left: 4px;
+  margin-top: 0px;
+}
+
+.indiantutor-container {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex: 1; */
+}
+
+.indiantutor {
+  display: flex;
+  width: 100%;
+  /* flex-direction: column; */
+}
+.Select-catogry{
+  width: 100%;
+}
+.Footer-address p{
+  font-weight: 400;
+  margin: 0 0 0 55px;
+}
+.footer-email a{
+  font-weight: 400;
+  margin: 0 0 0 55px;
+  color: white;
+
+}
+.footer-phone a{
+  font-weight: 400;
+  margin: 0 0 0 55px;
+  color: white;
+
+
+}
+.icons {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.contact {
+  margin-left: 1.25rem;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.QuickLinks {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+
+.QuickEnquiry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.indiantutor p{
+  margin: 0;
+  max-width: 466px;
+}
+
+/* form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: black;
+} */
+
+/* form input,
+form select {
+  border: 1px solid black;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem; */
+/* } */
+
+/* footer-button {
+  background-color: #ffa500;
+  padding: 0.5rem 1.5rem;
+  font-size: 2rem;
+  margin: 0 4rem;
+  border-radius: 1rem;
+  align-self: center; /* Center the button */
+/* } */ 
+
+/* Media query for screens with a max width of 1519px */
+/* @media only screen and (max-width: 1519px) {
+  .footer-body {
+    width: 100%;
+  }
+
+  .indiantutor-container {
+    width: auto;
+  }
+
+  .indiantutor {
+    margin-right: 50px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .footer-body{
+    gap: 3px;
+  } 
+} */
+/* Media query for screens with a max width of 650px */
+/* @media only screen and (max-width: 650px) {
+  .footer-body {
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    gap: 20px;
+
+    
+    font-size: large;
+    background-size: cover;
+    background-position: center; 
+  }
+  .footerForm{
+    width: 100%;
+  }
+  .footerForm input{
+    width: 100%;
+
+  }
+  .footerTitle{
+    align-items: center;
+    justify-content: center;
+  }
+  .indiantutor{
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .indiantutor-text{
+    align-items: center;
+  }
+
+
+  .indiantutor-container {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .rightSide {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .contact{
+    margin-top: 50px;
+  }
+}
+ */
+
+ @media (width<1046px){
+  .footer-body{
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+  .indiantutor p {
+    margin: 0;
+    max-width: 100%;
+  }
+ }
+ @media (width<365px){
+  .footer-body{
+    align-items: end;
+    padding: 10px;
+  }
+ }

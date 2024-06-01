@@ -1,0 +1,10 @@
+@media only screen and (max-width:200px){
+    .PosterCardContainer{
+        margin-top: 0;
+        width: 100%;
+
+    }
+    .px-32{
+        padding: 20px;
+    }
+}

@@ -1,0 +1,116 @@
+
+.SubjectCardcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  max-width: 1280px;
+  
+}
+
+.card {
+  height: 13rem;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: var(--color-primary-white);
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: opacity .2s ease-out;
+}
+
+.card h2 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  margin: 0;
+  transition: bottom .3s .3s ease-out;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.card p, .card a {
+  position: absolute;
+  opacity: 0;
+  max-width: 100%;
+  top:50%;
+  left: 50%;
+  transition: opacity .3s ease-out;
+}
+
+.card p {
+  bottom: 80px;
+  left: 16px;
+}
+
+.card a {
+  top: 40px;
+  left: 30px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card:hover h2 {
+  bottom: 220px;
+  transition: bottom .3s ease-out;
+}
+
+.card:hover p, .card:hover a {
+  opacity: 1;
+  transition: opacity .5s .1s ease-in;
+}
+
+.card:hover img {
+  transition: opacity .3s ease-in;
+  opacity: 0.5;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
+
+@media (max-width: 1310px){
+  .SubjectCardcontainer {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 989px;
+    justify-content: center;
+
+  }
+}
+@media (max-width: 1284px){
+  .SubjectCardcontainer {
+    max-width: 970px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+
+
+  }
+}
+@media (max-width: 660px){
+  .SubjectCardcontainer {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 460px;
+
+  }
+}
+@media (max-width: 460px){
+  .SubjectCardcontainer {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+}

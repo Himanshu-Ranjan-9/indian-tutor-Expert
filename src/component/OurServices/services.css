@@ -1,0 +1,208 @@
+.content{
+    margin: 0px 160px ;
+    margin-top: 200px ;
+    
+}
+.title{
+    text-align: center;
+}
+.heading{
+    color:rgba(215, 84, 2, 0.758);
+    font-size: 110px;
+    font-family: 'Dancing Script',sans-serif;
+}
+.title p:nth-child(1){
+    font-family: pompiere,Sans-serif;
+    text-transform:uppercase;
+    font-size:20px;
+    letter-spacing:10px;
+    color:black;
+    text-align: 100%;
+    font-weight: bold;
+}
+.title p:nth-child(2){
+    margin: 20px 220px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.items{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    gap: 40px;
+    
+    
+    
+}
+.evenRow{
+    display: flex;
+    /* overflow: auto; */
+
+}
+.evenRow img{
+    position: absolute;
+    width: 591px;
+    height: 360px;
+    border-radius:  15px 0  0 15px ;
+
+}
+.evenRowdetails{
+    width: 609px;
+    height: 308px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    right: 0;
+    margin: 26px 0px 26px 584px;
+}
+.evenRowdetails h3{
+    font-family: 'Dancing Script',sans-serif;
+    color:black;
+    font-size: 75px;
+    font-weight: 10;
+    
+}
+.evenRowdetails h6{
+    font-family:rubik,Sans-serif;;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.534);
+    font-weight: normal;
+    line-height: 1;
+    margin: 12px;
+    
+    
+}
+.evenRowdetails p{
+    font-family:rubik,Sans-serif;;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+    margin:12px;   
+}
+.oddRow{
+    display: flex;
+    flex-direction:row-reverse;
+    
+}
+.oddRow img{
+    position: absolute;
+    width: 600px;
+    height: 360px;
+    margin-right:7px;
+    border-radius: 0 15px 15px 0;
+}
+.oddRowDetails{
+    width: 609px;
+    height: 308px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    left: 0;
+    margin: 36px 592px 0px 0px;
+}
+.oddRowDetails h3{
+    color:black;
+    font-size: 75px;
+    font-weight: 10;
+    font-family: 'Dancing Script',sans-serif;
+    
+}
+.oddRowDetails h6{
+    font-family:rubik,Sans-serif;;
+    color: rgba(0, 0, 0, 0.534);
+    font-weight: normal;
+    line-height: 1;
+    margin: 12px;
+    font-size: 15px;
+}
+.oddRowDetails p{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+    margin:12px;   
+    font-family:rubik,Sans-serif;;
+}
+.btn2{
+    color: white;
+    background: rgb(215, 84, 2);
+    font-size: 20px;
+    padding: 9px 17px;
+    border-style: none;
+    display: block;
+    text-align: center;
+    font-family: poppins,Sans-serif;
+    font-weight: 501;
+    border-radius: 50px;
+
+}
+@media only screen and (max-width : 1454px){
+    .content{
+        margin: auto;
+        width: 100%;
+        
+    }
+    .title p:nth-child(2) {
+        margin: 0 20px;
+    }
+.oddRow{
+        flex-direction: column;
+        
+        align-items: center;
+
+        
+        
+    }
+    .oddRowDetails{
+            width: 100%;
+            height: 100%;
+        position: relative;
+        background: transparent;
+        border: none;
+        margin: 0;
+        
+    }    
+    .oddRow img{
+        position: relative;
+    }
+    
+    .evenRowdetails{
+            width: 100%;
+            height: 100%;
+        position: relative;
+        background: transparent;
+        border: none;
+        margin: 0;
+        
+    }    
+    .evenRow img{
+        position: relative;
+    }
+    .evenRow{
+        flex-direction: column;
+        align-items: center;
+        padding: auto;
+    }
+
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+@media (max-width:250px){
+    
+.oddRowDetails h3 {
+    color: black;
+    font-size: 57px;
+}
+.featuresHeading h1 {
+    font-size: 54px;
+}
+.h-screen {
+    height: 443px;
+}
+}

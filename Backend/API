@@ -1,0 +1,14 @@
+Student Signup -: "http://localhost:3000/StudentSignUp"
+
+Student Signin -: "http://localhost:3000/StudentSignin"
+
+Teacher Signup -: "http://localhost:3000/TeacherSignUp"
+
+Teacher Signin -: "http://localhost:3000/TeacherSignin"
+
+fetching Student details -: "http://localhost:3000/StudentProfile"
+
+fetching Teacher details -: "http://localhost:3000/TeacherProfile"
+
+
+Enquiry -: "http://localhost:3000/inquiries"
